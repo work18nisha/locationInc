@@ -40,9 +40,9 @@ public class UrlValidationTest {
 		String medianvalue = medianvalueElement.getText();
 
 		if (medianvalue.equals(expectedMedianValue)) {
-			System.out.println("Value is found in URL : " + urlEndpoint);
+			System.out.println("The Median Value " + expectedMedianValue + " is found in the URL : " + urlEndpoint);
 		} else {
-			System.out.println("Value not found in URL : " + urlEndpoint);
+			System.out.println("The Median Value " + expectedMedianValue + " is not found in the URL : " + urlEndpoint);
 		}
 
 	}
